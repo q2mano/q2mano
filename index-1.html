@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="../_autoindex/assets/css/autoindex.css"><script src="../_autoindex/assets/js/tablesort.js"></script><script src="../_autoindex/assets/js/tablesort.number.js"></script><title>Index of /api/</title></head>
+<body><div class="content"><h1>Index of /api/</h1>
+<div id="table-filter"><input type="text" name="keyword" id="filter-keyword" placeholder="Filter Name"></div>
+<div id="table-list"><table id="table-content"><thead class="t-header"><tr><th class="colname" aria-sort="descending"><a class="name" href="index-4.htm?NA" onclick="return false">Name</a></th><th class="colname" data-sort-method="number"><a href="index-2.htm?MA" onclick="return false">Last Modified</a></th><th class="colname" data-sort-method="number"><a href="index-3.htm?SA" onclick="return false">Size</a></th></tr></thead>
+<tr data-sort-method="none"><td><a href="/"><img class="icon" src="../_autoindex/assets/icons/corner-left-up.svg" alt="Up">Parent Directory</a></td><td></td><td></td></tr>
+<tr><td data-sort="*backupskins"><a href="backupskins/index.htm"><img class="icon" src="../_autoindex/assets/icons/folder-fill.svg" alt="Directory">backupskins</a></td><td data-sort="112496954">2023-07-14 01:09</td><td data-sort="-1">-</td></tr>
+<tr><td data-sort="users.php"><a href="users.php.html"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">users.php</a></td><td data-sort="1660020374">2022-08-09 04:46</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="skins.php"><a href="skins.php.html"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">skins.php</a></td><td data-sort="1658844094">2022-07-26 14:01</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="skins.json"><a href="skins.json"><img class="icon" src="../_autoindex/assets/icons/file.svg" alt="File">skins.json</a></td><td data-sort="1692452552">2023-08-19 13:42</td><td data-sort="1200128">   1172k</td></tr>
+<tr><td data-sort="server.php"><a href="server.php.html"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">server.php</a></td><td data-sort="1659933552">2022-08-08 04:39</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="server.json"><a href="server.json"><img class="icon" src="../_autoindex/assets/icons/file.svg" alt="File">server.json</a></td><td data-sort="1692688779">2023-08-22 07:19</td><td data-sort="45056">     44k</td></tr>
+<tr><td data-sort="note.txt"><a href="note.txt"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">note.txt</a></td><td data-sort="1692447742">2023-08-19 12:22</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="kich-hoat-khach-hang.php"><a href="kich-hoat-khach-hang.php.html"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">kich-hoat-khach-hang.php</a></td><td data-sort="1692867286">2023-08-24 08:54</td><td data-sort="4096">      4k</td></tr>
+<tr><td data-sort="hihi.json"><a href="/api/hihi.json"><img class="icon" src="../_autoindex/assets/icons/file.svg" alt="File">hihi.json</a></td><td data-sort="1689746681">2023-07-19 06:04</td><td data-sort="0">      0k</td></tr>
+<tr><td data-sort="danh-sach-khach-hang.php"><a href="danh-sach-khach-hang.php.html"><img class="icon" src="../_autoindex/assets/icons/file-text.svg" alt="[TXT]">danh-sach-khach-hang.php</a></td><td data-sort="1692866484">2023-08-24 08:41</td><td data-sort="8192">      8k</td></tr>
+<tr><td data-sort="activedid.json"><a href="activedID.json"><img class="icon" src="../_autoindex/assets/icons/file.svg" alt="File">activedID.json</a></td><td data-sort="1693371844">2023-08-30 05:04</td><td data-sort="45056">     44k</td></tr>
+</table></div>
+<address>Proudly Served by LiteSpeed Web Server at haylamday.com Port 443</address></div><script>
+	new Tablesort(document.getElementById("table-content"));
+	var keywordInput = document.getElementById('filter-keyword');
+	document.addEventListener('keyup', filterTable);
+
+	function filterTable(e) {
+		if (e.target.id != 'filter-keyword') return;
+
+		var cols = document.querySelectorAll('tbody td:first-child');
+		var keyword = keywordInput.value.toLowerCase();
+		for (i = 0; i < cols.length; i++) {
+			var text = cols[i].textContent.toLowerCase();
+			if (text != 'parent directory') {
+				cols[i].parentNode.style.display = text.indexOf(keyword) === -1 ? 'none' : 'table-row';
+			}
+		}
+	}
+</script></body></html>
